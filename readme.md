@@ -11,7 +11,9 @@ The following project demonstrates how you can cross compile OpenCV and MXNET fo
 You must have docker installed.
 
 ## Build instructions
-- `docker build -t trueface/aarch64-cuda10-2 -f aarch64-cuda-10-2-ubuntu18.dockerfile .`
+- `docker build -t cyrusbehr/aarch64-cuda10-2 -f aarch64-cuda-10-2-ubuntu18.dockerfile .`
+- `docker build -t cyrusbehr/opencv-cuda -f build-opencv-cuda.dockerfile .`
+- `docker build -t cyrusbehr/opencv-mxnet -f build-mxnet-cuda.dockerfile .`
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
