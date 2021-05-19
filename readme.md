@@ -4,6 +4,15 @@
 
 # How to Cross Compile OpenCV and MXNET for AArch64 CUDA (NVIDIA Jetson)
 
+## Overview
+The following project demonstrates how you can cross compile OpenCV and MXNET for AArch64 CUDA. The resulting libraries can be used on an NVIDIA Jetson. 
+
+## Prerequisites
+You must have docker installed.
+
+## Build instructions
+- `docker build -t trueface/aarch64-cuda10-2 -f aarch64-cuda-10-2-ubuntu18.dockerfile .`
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
