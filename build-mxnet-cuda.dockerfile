@@ -1,4 +1,4 @@
-FROM cyrusbehr/aarch64-cuda10-2
+FROM aarch64-cuda10-2
 
 COPY scripts/build_mxnet.sh / 
 COPY patch/op.h /
