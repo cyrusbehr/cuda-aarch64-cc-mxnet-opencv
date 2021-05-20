@@ -14,7 +14,7 @@ You must have docker installed.
 - `docker build -t aarch64-cuda10-2 -f aarch64-cuda-10-2-ubuntu18.dockerfile .`
 - `docker build -t opencv-cuda -f build-opencv-cuda.dockerfile .`
 - `docker build -t mxnet-cuda -f build-mxnet-cuda.dockerfile .`
-- The cross compiled libraries can be found in the `cyrusbehr/opencv-cuda` and `cyrusbehr/opencv-mxnet` images. 
+- The cross compiled libraries can be found in the `opencv-cuda` and `opencv-mxnet` images. 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
